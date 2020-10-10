@@ -104,7 +104,7 @@ Partial Class frmRECETA
         'IdPacienteLabel
         '
         IdPacienteLabel.AutoSize = True
-        IdPacienteLabel.Location = New System.Drawing.Point(368, 174)
+        IdPacienteLabel.Location = New System.Drawing.Point(329, 174)
         IdPacienteLabel.Name = "IdPacienteLabel"
         IdPacienteLabel.Size = New System.Drawing.Size(93, 20)
         IdPacienteLabel.TabIndex = 7
@@ -299,7 +299,7 @@ Partial Class frmRECETA
         'IdPacienteTextBox
         '
         Me.IdPacienteTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdPaciente", True))
-        Me.IdPacienteTextBox.Location = New System.Drawing.Point(488, 174)
+        Me.IdPacienteTextBox.Location = New System.Drawing.Point(446, 171)
         Me.IdPacienteTextBox.Name = "IdPacienteTextBox"
         Me.IdPacienteTextBox.Size = New System.Drawing.Size(59, 26)
         Me.IdPacienteTextBox.TabIndex = 8
