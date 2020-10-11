@@ -77,54 +77,60 @@ Partial Class frmRECETA
         'IdRecetaLabel
         '
         IdRecetaLabel.AutoSize = True
-        IdRecetaLabel.Location = New System.Drawing.Point(54, 82)
+        IdRecetaLabel.Location = New System.Drawing.Point(36, 53)
+        IdRecetaLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         IdRecetaLabel.Name = "IdRecetaLabel"
-        IdRecetaLabel.Size = New System.Drawing.Size(83, 20)
+        IdRecetaLabel.Size = New System.Drawing.Size(57, 13)
         IdRecetaLabel.TabIndex = 1
         IdRecetaLabel.Text = "Id Receta:"
         '
         'FechaLabel
         '
         FechaLabel.AutoSize = True
-        FechaLabel.Location = New System.Drawing.Point(54, 125)
+        FechaLabel.Location = New System.Drawing.Point(36, 81)
+        FechaLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         FechaLabel.Name = "FechaLabel"
-        FechaLabel.Size = New System.Drawing.Size(58, 20)
+        FechaLabel.Size = New System.Drawing.Size(40, 13)
         FechaLabel.TabIndex = 3
         FechaLabel.Text = "Fecha:"
         '
         'IdMedicoLabel
         '
         IdMedicoLabel.AutoSize = True
-        IdMedicoLabel.Location = New System.Drawing.Point(54, 171)
+        IdMedicoLabel.Location = New System.Drawing.Point(36, 111)
+        IdMedicoLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         IdMedicoLabel.Name = "IdMedicoLabel"
-        IdMedicoLabel.Size = New System.Drawing.Size(82, 20)
+        IdMedicoLabel.Size = New System.Drawing.Size(57, 13)
         IdMedicoLabel.TabIndex = 5
         IdMedicoLabel.Text = "Id Medico:"
         '
         'IdPacienteLabel
         '
         IdPacienteLabel.AutoSize = True
-        IdPacienteLabel.Location = New System.Drawing.Point(329, 174)
+        IdPacienteLabel.Location = New System.Drawing.Point(324, 67)
+        IdPacienteLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         IdPacienteLabel.Name = "IdPacienteLabel"
-        IdPacienteLabel.Size = New System.Drawing.Size(93, 20)
+        IdPacienteLabel.Size = New System.Drawing.Size(64, 13)
         IdPacienteLabel.TabIndex = 7
         IdPacienteLabel.Text = "Id Paciente:"
         '
         'IdEnfermeraLabel
         '
         IdEnfermeraLabel.AutoSize = True
-        IdEnfermeraLabel.Location = New System.Drawing.Point(54, 234)
+        IdEnfermeraLabel.Location = New System.Drawing.Point(36, 152)
+        IdEnfermeraLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         IdEnfermeraLabel.Name = "IdEnfermeraLabel"
-        IdEnfermeraLabel.Size = New System.Drawing.Size(106, 20)
+        IdEnfermeraLabel.Size = New System.Drawing.Size(70, 13)
         IdEnfermeraLabel.TabIndex = 9
         IdEnfermeraLabel.Text = "Id Enfermera:"
         '
         'IdConsultorioLabel
         '
         IdConsultorioLabel.AutoSize = True
-        IdConsultorioLabel.Location = New System.Drawing.Point(329, 237)
+        IdConsultorioLabel.Location = New System.Drawing.Point(219, 154)
+        IdConsultorioLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         IdConsultorioLabel.Name = "IdConsultorioLabel"
-        IdConsultorioLabel.Size = New System.Drawing.Size(111, 20)
+        IdConsultorioLabel.Size = New System.Drawing.Size(74, 13)
         IdConsultorioLabel.TabIndex = 11
         IdConsultorioLabel.Text = "Id Consultorio:"
         '
@@ -175,7 +181,7 @@ Partial Class frmRECETA
         Me.RECETABindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.RECETABindingNavigator.Name = "RECETABindingNavigator"
         Me.RECETABindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.RECETABindingNavigator.Size = New System.Drawing.Size(808, 31)
+        Me.RECETABindingNavigator.Size = New System.Drawing.Size(539, 31)
         Me.RECETABindingNavigator.TabIndex = 0
         Me.RECETABindingNavigator.Text = "BindingNavigator1"
         '
@@ -191,7 +197,7 @@ Partial Class frmRECETA
         'BindingNavigatorCountItem
         '
         Me.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem"
-        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(57, 28)
+        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(37, 28)
         Me.BindingNavigatorCountItem.Text = "de {0}"
         Me.BindingNavigatorCountItem.ToolTipText = "Número total de elementos"
         '
@@ -232,7 +238,7 @@ Partial Class frmRECETA
         Me.BindingNavigatorPositionItem.AccessibleName = "Posición"
         Me.BindingNavigatorPositionItem.AutoSize = False
         Me.BindingNavigatorPositionItem.Name = "BindingNavigatorPositionItem"
-        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(50, 31)
+        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(35, 23)
         Me.BindingNavigatorPositionItem.Text = "0"
         Me.BindingNavigatorPositionItem.ToolTipText = "Posición actual"
         '
@@ -275,49 +281,55 @@ Partial Class frmRECETA
         'IdRecetaTextBox
         '
         Me.IdRecetaTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdReceta", True))
-        Me.IdRecetaTextBox.Location = New System.Drawing.Point(171, 79)
+        Me.IdRecetaTextBox.Location = New System.Drawing.Point(114, 51)
+        Me.IdRecetaTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.IdRecetaTextBox.Name = "IdRecetaTextBox"
-        Me.IdRecetaTextBox.Size = New System.Drawing.Size(59, 26)
+        Me.IdRecetaTextBox.Size = New System.Drawing.Size(41, 20)
         Me.IdRecetaTextBox.TabIndex = 2
         '
         'FechaDateTimePicker
         '
         Me.FechaDateTimePicker.DataBindings.Add(New System.Windows.Forms.Binding("Value", Me.RECETABindingSource, "Fecha", True))
-        Me.FechaDateTimePicker.Location = New System.Drawing.Point(171, 121)
+        Me.FechaDateTimePicker.Location = New System.Drawing.Point(114, 79)
+        Me.FechaDateTimePicker.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.FechaDateTimePicker.Name = "FechaDateTimePicker"
-        Me.FechaDateTimePicker.Size = New System.Drawing.Size(200, 26)
+        Me.FechaDateTimePicker.Size = New System.Drawing.Size(135, 20)
         Me.FechaDateTimePicker.TabIndex = 4
         '
         'IdMedicoTextBox
         '
         Me.IdMedicoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdMedico", True))
-        Me.IdMedicoTextBox.Location = New System.Drawing.Point(171, 168)
+        Me.IdMedicoTextBox.Location = New System.Drawing.Point(114, 109)
+        Me.IdMedicoTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.IdMedicoTextBox.Name = "IdMedicoTextBox"
-        Me.IdMedicoTextBox.Size = New System.Drawing.Size(59, 26)
+        Me.IdMedicoTextBox.Size = New System.Drawing.Size(41, 20)
         Me.IdMedicoTextBox.TabIndex = 6
         '
         'IdPacienteTextBox
         '
         Me.IdPacienteTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdPaciente", True))
-        Me.IdPacienteTextBox.Location = New System.Drawing.Point(446, 171)
+        Me.IdPacienteTextBox.Location = New System.Drawing.Point(417, 46)
+        Me.IdPacienteTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.IdPacienteTextBox.Name = "IdPacienteTextBox"
-        Me.IdPacienteTextBox.Size = New System.Drawing.Size(59, 26)
+        Me.IdPacienteTextBox.Size = New System.Drawing.Size(41, 20)
         Me.IdPacienteTextBox.TabIndex = 8
         '
         'IdEnfermeraTextBox
         '
         Me.IdEnfermeraTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdEnfermera", True))
-        Me.IdEnfermeraTextBox.Location = New System.Drawing.Point(171, 231)
+        Me.IdEnfermeraTextBox.Location = New System.Drawing.Point(114, 150)
+        Me.IdEnfermeraTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.IdEnfermeraTextBox.Name = "IdEnfermeraTextBox"
-        Me.IdEnfermeraTextBox.Size = New System.Drawing.Size(59, 26)
+        Me.IdEnfermeraTextBox.Size = New System.Drawing.Size(41, 20)
         Me.IdEnfermeraTextBox.TabIndex = 10
         '
         'IdConsultorioTextBox
         '
         Me.IdConsultorioTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdConsultorio", True))
-        Me.IdConsultorioTextBox.Location = New System.Drawing.Point(446, 234)
+        Me.IdConsultorioTextBox.Location = New System.Drawing.Point(297, 152)
+        Me.IdConsultorioTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.IdConsultorioTextBox.Name = "IdConsultorioTextBox"
-        Me.IdConsultorioTextBox.Size = New System.Drawing.Size(59, 26)
+        Me.IdConsultorioTextBox.Size = New System.Drawing.Size(41, 20)
         Me.IdConsultorioTextBox.TabIndex = 12
         '
         'DETALLE_RECETABindingSource
@@ -331,10 +343,11 @@ Partial Class frmRECETA
         Me.DETALLE_RECETADataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DETALLE_RECETADataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4})
         Me.DETALLE_RECETADataGridView.DataSource = Me.DETALLE_RECETABindingSource
-        Me.DETALLE_RECETADataGridView.Location = New System.Drawing.Point(58, 293)
+        Me.DETALLE_RECETADataGridView.Location = New System.Drawing.Point(39, 190)
+        Me.DETALLE_RECETADataGridView.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DETALLE_RECETADataGridView.Name = "DETALLE_RECETADataGridView"
         Me.DETALLE_RECETADataGridView.RowTemplate.Height = 28
-        Me.DETALLE_RECETADataGridView.Size = New System.Drawing.Size(733, 320)
+        Me.DETALLE_RECETADataGridView.Size = New System.Drawing.Size(489, 208)
         Me.DETALLE_RECETADataGridView.TabIndex = 13
         '
         'DataGridViewTextBoxColumn1
@@ -363,9 +376,9 @@ Partial Class frmRECETA
         '
         'frmRECETA
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(808, 625)
+        Me.ClientSize = New System.Drawing.Size(539, 406)
         Me.Controls.Add(Me.DETALLE_RECETADataGridView)
         Me.Controls.Add(IdRecetaLabel)
         Me.Controls.Add(Me.IdRecetaTextBox)
@@ -380,6 +393,7 @@ Partial Class frmRECETA
         Me.Controls.Add(IdConsultorioLabel)
         Me.Controls.Add(Me.IdConsultorioTextBox)
         Me.Controls.Add(Me.RECETABindingNavigator)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frmRECETA"
         Me.Text = "frmRECETA"
         CType(Me.BD_RecetasDataSet, System.ComponentModel.ISupportInitialize).EndInit()
