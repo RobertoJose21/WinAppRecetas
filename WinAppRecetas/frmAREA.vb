@@ -11,4 +11,8 @@
         Me.AREATableAdapter.Fill(Me.BD_RecetasDataSet.AREA)
 
     End Sub
+
+    Private Sub IdAreaTextBox_TextChanged(sender As Object, e As EventArgs) Handles IdAreaTextBox.TextChanged
+
+    End Sub
 End Class
