@@ -104,7 +104,7 @@ Partial Class frmRECETA
         'IdPacienteLabel
         '
         IdPacienteLabel.AutoSize = True
-        IdPacienteLabel.Location = New System.Drawing.Point(329, 174)
+        IdPacienteLabel.Location = New System.Drawing.Point(304, 228)
         IdPacienteLabel.Name = "IdPacienteLabel"
         IdPacienteLabel.Size = New System.Drawing.Size(93, 20)
         IdPacienteLabel.TabIndex = 7
@@ -113,7 +113,7 @@ Partial Class frmRECETA
         'IdEnfermeraLabel
         '
         IdEnfermeraLabel.AutoSize = True
-        IdEnfermeraLabel.Location = New System.Drawing.Point(54, 234)
+        IdEnfermeraLabel.Location = New System.Drawing.Point(304, 168)
         IdEnfermeraLabel.Name = "IdEnfermeraLabel"
         IdEnfermeraLabel.Size = New System.Drawing.Size(106, 20)
         IdEnfermeraLabel.TabIndex = 9
@@ -122,7 +122,7 @@ Partial Class frmRECETA
         'IdConsultorioLabel
         '
         IdConsultorioLabel.AutoSize = True
-        IdConsultorioLabel.Location = New System.Drawing.Point(329, 237)
+        IdConsultorioLabel.Location = New System.Drawing.Point(562, 231)
         IdConsultorioLabel.Name = "IdConsultorioLabel"
         IdConsultorioLabel.Size = New System.Drawing.Size(111, 20)
         IdConsultorioLabel.TabIndex = 11
@@ -299,7 +299,7 @@ Partial Class frmRECETA
         'IdPacienteTextBox
         '
         Me.IdPacienteTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdPaciente", True))
-        Me.IdPacienteTextBox.Location = New System.Drawing.Point(446, 171)
+        Me.IdPacienteTextBox.Location = New System.Drawing.Point(421, 225)
         Me.IdPacienteTextBox.Name = "IdPacienteTextBox"
         Me.IdPacienteTextBox.Size = New System.Drawing.Size(59, 26)
         Me.IdPacienteTextBox.TabIndex = 8
@@ -307,7 +307,7 @@ Partial Class frmRECETA
         'IdEnfermeraTextBox
         '
         Me.IdEnfermeraTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdEnfermera", True))
-        Me.IdEnfermeraTextBox.Location = New System.Drawing.Point(171, 231)
+        Me.IdEnfermeraTextBox.Location = New System.Drawing.Point(421, 165)
         Me.IdEnfermeraTextBox.Name = "IdEnfermeraTextBox"
         Me.IdEnfermeraTextBox.Size = New System.Drawing.Size(59, 26)
         Me.IdEnfermeraTextBox.TabIndex = 10
@@ -315,7 +315,7 @@ Partial Class frmRECETA
         'IdConsultorioTextBox
         '
         Me.IdConsultorioTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RECETABindingSource, "IdConsultorio", True))
-        Me.IdConsultorioTextBox.Location = New System.Drawing.Point(446, 234)
+        Me.IdConsultorioTextBox.Location = New System.Drawing.Point(679, 228)
         Me.IdConsultorioTextBox.Name = "IdConsultorioTextBox"
         Me.IdConsultorioTextBox.Size = New System.Drawing.Size(59, 26)
         Me.IdConsultorioTextBox.TabIndex = 12
