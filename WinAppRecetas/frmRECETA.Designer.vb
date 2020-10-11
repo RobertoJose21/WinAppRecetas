@@ -175,7 +175,7 @@ Partial Class frmRECETA
         Me.RECETABindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.RECETABindingNavigator.Name = "RECETABindingNavigator"
         Me.RECETABindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.RECETABindingNavigator.Size = New System.Drawing.Size(819, 31)
+        Me.RECETABindingNavigator.Size = New System.Drawing.Size(808, 31)
         Me.RECETABindingNavigator.TabIndex = 0
         Me.RECETABindingNavigator.Text = "BindingNavigator1"
         '
@@ -365,7 +365,7 @@ Partial Class frmRECETA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(819, 625)
+        Me.ClientSize = New System.Drawing.Size(808, 625)
         Me.Controls.Add(Me.DETALLE_RECETADataGridView)
         Me.Controls.Add(IdRecetaLabel)
         Me.Controls.Add(Me.IdRecetaTextBox)
